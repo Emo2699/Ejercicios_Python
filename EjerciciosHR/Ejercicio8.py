@@ -30,24 +30,34 @@ Restricciones.
     Debe de existir siempre uno o mas estudiantes con la segunda calificacion más baja
 
 Salida
-    Imprime el resultado más alto
+    Imprime los nombres de los estudiantes con la segunda calificacion
+    más baja
 
 '''
-
-# for _ in range(int(input())):
-#     nombre = input()
-#     score = float(input())
+#Funcion que regresa el segundo valor más bajo de una lista
+def encontrarSegundaCalificacionBaja(calificaciones:list):
+    sinDuplicados = set(calificaciones)
+    lista = list(sinDuplicados)
+    lista.sort()
+    return lista[1]
 
 numeroEstudiantes = int(input("Ingresa el numero de estudiantes: "))
-# print(numeroEstudiantes)
+print(numeroEstudiantes)
 
-listaInterna = []
-for x in range(numeroEstudiantes):
-    nombre = input()
-    calificacion = float(input())
-    listaInterna.append([nombre,calificacion])
-    
+estudiantes = []
 calificaciones = []    
 for x in range(numeroEstudiantes):
-    calificaciones.append(listaInterna[x][1])
-print(calificaciones)    
+    nombre = input("Ingresa el nombre del estudiante: ")
+    calificacion = float(input("Ingresa su calificacion: "))
+    estudiantes.append([nombre,calificacion])
+    calificaciones.append(calificacion)
+
+segundaCalificacionBaja = encontrarSegundaCalificacionBaja(calificaciones)
+nombres = []
+for x in range(len(estudiantes)):
+    if segundaCalificacionBaja in estudiantes[x]:
+        # print(estudiantes[x][0])
+        nombres.append(estudiantes[x][0])    
+nombres.sort()
+for nombre in nombres:
+    print(nombre)
