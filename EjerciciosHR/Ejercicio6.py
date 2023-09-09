@@ -1,23 +1,23 @@
-'''
-author:         Ramirez Morales Erick Hazel
-date:           21/06/2023
-description:    Ejercicio 6 en python
+# '''
+# author:         Ramirez Morales Erick Hazel
+# date:           21/06/2023
+# description:    Ejercicio 6 en python
 
-Ejercicio: 
-    Comencemos a aprender acerca de las listas.
-    Se te proporcionan tres numeros enteros X,Y y Z los cuales
-    representan las dimensiones de un cubo, además de un número
-    entero N. Imprime una lista de todas las posibles coordenadas
-    dadas por (i,j,k) en tres dimensiones donde la suma de los 
-    valores i+j+k no sea N.
+# Ejercicio: 
+#     Comencemos a aprender acerca de las listas.
+#     Se te proporcionan tres numeros enteros X,Y y Z los cuales
+#     representan las dimensiones de un cubo, además de un número
+#     entero N. Imprime una lista de todas las posibles coordenadas
+#     dadas por (i,j,k) en tres dimensiones donde la suma de los 
+#     valores i+j+k no sea N.
 
-    además se debe de cumplir la siguiente condición
+#     además se debe de cumplir la siguiente condición
 
-    0 <= i <= x
-    0 <= j <= y
-    0 <= k <= z
-    NOTA: Se recomienda no usar loops para la solución de este problema 
-'''
+#     0 <= i <= x
+#     0 <= j <= y
+#     0 <= k <= z
+#     NOTA: Se recomienda no usar loops para la solución de este problema 
+# '''
 #Ingresamos los valores de los enteros
 # print("Ingresa los valores para X, Y, Z y N")
 # x = int(input())

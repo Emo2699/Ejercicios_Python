@@ -1,17 +1,17 @@
-'''
-@Autor:                     Ramirez Morales Erick Hazel
-@date:                      07/11/22
-@description:
-Problema 1.
-Dado un entero n, implementar las siguientes acciones condicionales
-    Si n es impar, imprimir Weird
-    Si n es par y esta en el rango inclusivo de 2 a 5, imprimir Not Weird
-    Si n es par y esta en el rango inclusivo de 6 a 20, imprimir Weird
-    Si n es par y es mayor que 20, imprimir Not Weird
+# 
+# @Autor:                     Ramirez Morales Erick Hazel
+# @date:                      07/11/22
+# @description:
+# Problema 1.
+# Dado un entero n, implementar las siguientes acciones condicionales
+#     Si n es impar, imprimir Weird
+#     Si n es par y esta en el rango inclusivo de 2 a 5, imprimir Not Weird
+#     Si n es par y esta en el rango inclusivo de 6 a 20, imprimir Weird
+#     Si n es par y es mayor que 20, imprimir Not Weird
 
-    Constrains 
-    1 <= n <= 100
-'''
+#     Constrains 
+#     1 <= n <= 100
+# 
 
 import math
 import os
